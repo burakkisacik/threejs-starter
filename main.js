@@ -1,7 +1,7 @@
 import './style.css';
 import { World } from './src/World/World';
 
-function main() {
+async function main() {
   const container = document.querySelector('#scene-container');
 
   const world = new World(container);
@@ -10,4 +10,6 @@ function main() {
   world.start();
 }
 
-main();
+main().catch((err) => {
+  console.log(err);
+});

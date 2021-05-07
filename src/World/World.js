@@ -46,5 +46,9 @@ class World {
   stop() {
     loop.stop();
   }
+
+  async init() {
+    //this methos is for async tasks
+  }
 }
 export { World };
