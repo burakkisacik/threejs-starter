@@ -12,15 +12,6 @@ body {
   color: #444;
 }
 
-h1 {
-  /* position the heading */
-  position: absolute;
-  width: 100%;
-
-  /* make sure that the heading is drawn on top */
-  z-index: 1;
-}
-
 #scene-container {
   /* tell our scene container to take up the full page */
   position: absolute;
